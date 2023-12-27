@@ -355,17 +355,7 @@ export class Engine {
         this.earthMesh =  new THREE.Mesh(geometry, material);
         group.add(this.earthMesh);        
 
-        // // Axis
-        // material = new THREE.LineBasicMaterial({color: 0xffffff});
-        // geometry = new THREE.Geometry();
-        // geometry.vertices.push(
-        //     new THREE.Vector3(0, -7000, 0),
-        //     new THREE.Vector3(0, 7000, 0)
-        // );
         
-        // var earthRotationAxis = new THREE.Line(geometry, material);
-        // group.add(earthRotationAxis);
-
         this.earth = group;
         this.scene.add(this.earth);
 
