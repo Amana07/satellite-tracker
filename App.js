@@ -120,7 +120,7 @@ class App extends Component {
         //this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/weather.txt'), 0x00ffff)
         //this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/cosmos-2251-debris.txt'), 0xff0090)
         // this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/active.txt'), 0xffffff)
-        this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=tle'), 0xffff00)
+        this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/gp.php?GROUP=geo&FORMAT=tle'), 0xffff00)
         //this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/stations.txt'), 0xffff00)
         // this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/iridium-NEXT.txt'), 0x00ff00)
         // this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/Active Geosynchronous.txt'), 0x00ff00)
