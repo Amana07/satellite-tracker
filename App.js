@@ -136,7 +136,7 @@ class App extends Component {
     }
 
     addAmsatSets = () => {
-        //this.engine.loadLteFileStations(getCorsFreeUrl('https://www.amsat.org/tle/current/nasabare.txt'), 0xffff00);
+        this.engine.loadLteFileStations(getCorsFreeUrl('https://www.amsat.org/tle/current/nasabare.txt'), 0xffff00);
     }
 
     handleTimer = () => {
