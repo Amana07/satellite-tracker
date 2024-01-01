@@ -122,11 +122,11 @@ class App extends Component {
         this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/active.txt'), 0xffffff)
         //this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/science.txt'), 0xffff00)
         //this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/stations.txt'), 0xffff00)
-        this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/iridium-NEXT.txt'), 0x00ff00)
-        this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/Active Geosynchronous.txt'), 0x00ff00)
-        this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/Intelsa.txt'), 0xffffff)
-        this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/starlink.txt'), 0x0000ff)
-        this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/SES.txt'), 0xffffff, { orbitMinutes: 0, satelliteSize: 200 })
+        // this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/iridium-NEXT.txt'), 0x00ff00)
+        // this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/Active Geosynchronous.txt'), 0x00ff00)
+        // this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/Intelsa.txt'), 0xffffff)
+        // this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/starlink.txt'), 0x0000ff)
+        // this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/SES.txt'), 0xffffff, { orbitMinutes: 0, satelliteSize: 200 })
         //this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/glo-ops.txt'), 0xff0000, { orbitMinutes: 500, satelliteSize: 500 })
             .then(stations => {
                 this.setState({stations});
