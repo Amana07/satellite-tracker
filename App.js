@@ -127,7 +127,7 @@ class App extends Component {
         this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/gp.php?GROUP=oneweb&FORMAT=tle'), 0xffffff)
         this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/gp.php?GROUP=starlink&FORMAT=tle'), 0x0000ff)
         this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/gp.php?GROUP=ses&FORMAT=tle'), 0xffffff, { orbitMinutes: 0, satelliteSize: 200 })
-        this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/gp.php?GROUP=swarm&FORMAT=tle'), 0xff0000, { orbitMinutes: 500, satelliteSize: 500 })
+        //this.engine.loadLteFileStations(getCorsFreeUrl('https://celestrak.org/NORAD/elements/gp.php?GROUP=swarm&FORMAT=tle'), 0xff0000, { orbitMinutes: 500, satelliteSize: 500 })
             .then(stations => {
                 this.setState({stations});
                 this.processQuery(stations);
