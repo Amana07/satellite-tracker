@@ -7,7 +7,7 @@ class Info extends Component {
 
     return (
       <div className='Info' style={{ position: 'absolute', top: '10px', right: '10px' }}>
-        <h1>Satellite tracker</h1>
+        <h1>PHOENIX LABS PLASM</h1>
         {stations && stations.length > 0 && <p>Total objects: {stations.length}</p>}
         {refMode === 1 ? <p>ECF mode</p> : <p>ECI mode</p>}
       </div>
